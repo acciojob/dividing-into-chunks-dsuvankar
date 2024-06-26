@@ -11,7 +11,7 @@ const divide = (arr, 5) => {
 			currSum += arr[i];
 		}else{
 			res.push(currSubarr);
-			currSubarr.push(arr[i]);
+			currSubarr = arr[i];
 			currSum = arr[i]
 		}
 	}
