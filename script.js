@@ -16,7 +16,7 @@ const divide = (arr, 5) => {
 		}
 	}
 
-	if(currSubarr.length>2){
+	if(currSubarr.length>0){
 		res.push(currSubarr);
 	}
 
