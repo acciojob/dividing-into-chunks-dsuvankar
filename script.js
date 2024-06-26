@@ -12,11 +12,11 @@ const divide = (arr, 5) => {
 		}else{
 			res.push(currSubarr);
 			currSubarr.push(arr[i]);
-			currSum(arr[i]);
+			currSum = arr[i]
 		}
 	}
 
-	if(currSubarr.length>0){
+	if(currSubarr.length>0){ 
 		res.push(currSubarr);
 	}
 
